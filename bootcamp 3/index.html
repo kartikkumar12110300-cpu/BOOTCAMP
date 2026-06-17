@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Welcome To KRMU</h1>
+    <button>Change</button>
+    <script>
+
+        const heading = document.querySelector("h1");
+        const button = document.querySelector("button");
+
+        button.addEventListener("click", ()=> {
+            heading.textContent = "Welcome to BootCamp";
+            heading.style.backgroundColor = "green";
+        });
+
+
+    </script>
+</body>
+
+</html>
