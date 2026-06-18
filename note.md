@@ -18,3 +18,11 @@ HOOKS
     a> only calls HOOKS at the Top level
     b> only calls HOOKS from React function
 3. HOOKS are only define in react function  
+
+
+### To Study
+1. map vs foreach
+2. map vs filter vs reduce
+3. find vs filter
+4. some vs every
+5. push vs pop vs shift vs unshift
